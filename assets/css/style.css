@@ -33,7 +33,7 @@ header {
 }
 
 .contents {
-    margin-left: 567px;
+    margin-left: 530px;
     padding-top: 25px;
     vertical-align: middle;
     float: left;
@@ -55,7 +55,6 @@ form {
 
 input[type=text] {
     width: 97%;
-    border-radius: 4px;
     color: #777777;
     height: 16px;
     margin-top: 10px;
@@ -71,7 +70,6 @@ input[type=submit]{
     height:40px;
     background: #4aaaa5;
     color: #ffffff;
-    border-radius: 4px;
     margin-top: 10px;
     font-size: 20px;
 }
@@ -109,13 +107,12 @@ p {
 }
 
 #message {
-    height: 400px;
+    height: 200px;
     width: 97%;
-    border-radius: 4px;
     color: #777777;
     border-width: 1px;
     border-color: #cccccc;
-    text-align: top;
+    margin-top: 10px;
 }
 
 #title {
@@ -123,6 +120,29 @@ p {
     padding: 15px 0px 5px 32px;
     font-size: 32px;
 }
+
+.port-icons {
+    margin-left: 55px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 40px;
+    width: 250px;
+}
+
+.icons {
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+
 
 hr {
     width: 90%;
@@ -135,8 +155,8 @@ footer {
     background: #666666;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     clear: both;
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px 20px 0px;
     color: #cccccc;
-    font-size: 10px;
+    font-size: 14px;
     border-top: #4aaaa5 solid 10px;
 }
